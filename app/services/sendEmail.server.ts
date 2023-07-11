@@ -44,7 +44,7 @@ export async function sendEmail(mail: Mail) {
       subject: "Join Our Community!",
       html: `<p>Hello,</p>
       <p>You have been invited to join our community ${mail.commName}. Click the link below to join:</p>
-      <a href="http://localhost:3000/invitation/${createdInvitation.id}">Join Now</a>
+      <a href="https://talknet.vercel.app/invitation/${createdInvitation.id}">Join Now</a>
       <p>We look forward to having you as a member!</p>`,
     };
 
